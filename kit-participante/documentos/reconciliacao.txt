@@ -1,0 +1,9 @@
+CASO FICTÍCIO AURORA — material didático
+Evidência: E03
+Título: Reconciliação de pedidos e pagamentos
+Versão: 1.0
+Data: 20/09/2026
+Localização: Resumo da carga
+Fuso do caso: America/Sao_Paulo
+
+Após excluir duas duplicatas e um registro inválido de transporte, os arquivos contêm 1.000 tentativas válidas no dia 19/09 e 1.000 no dia 20/09. Cada tentativa possui uma referência de pedido e uma tentativa de pagamento. As contagens conferem com os manifests fictícios de origem. Não há atraso de carga no recorte do caso.

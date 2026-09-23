@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#07111e">
+<title>Data Courtroom · Oracle AI Data Platform</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="workspace-tour.css">
+<script defer src="content.js"></script>
+<script defer src="aidp-live.js"></script>
+<script defer src="workspace-tour.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#slide">Pular para o conteúdo</a>
+<div class="backdrop" id="backdrop" aria-hidden="true"></div>
+<div class="app-shell">
+<header class="topbar">
+ <a href="#1" class="brand" aria-label="Data Courtroom — início"><span class="brand-icon">◈</span><span>DATA <b>COURTROOM</b><small>ORACLE AI DATA PLATFORM</small></span></a>
+ <div class="session-label"><span class="status-dot"></span>AIDP real <span class="desktop-label">· dados fictícios</span></div>
+ <div class="toolbar"><button id="outline-btn" title="Abrir roteiro (M)">Roteiro</button><button id="glossary-btn">Conceitos</button><button id="notes-btn" title="Notas da apresentadora (N)">Notas</button><button id="fullscreen-btn" class="icon-button" title="Tela cheia (F)" aria-label="Alternar tela cheia">⛶</button></div>
+</header>
+<main id="slide" class="slide" tabindex="-1"></main>
+<footer class="bottom-bar">
+ <div class="progress-label"><span id="chapter-label"></span><small id="time-label"></small></div>
+ <nav class="chapter-dots" id="chapter-dots" aria-label="Etapas da apresentação"></nav>
+ <div class="page-controls"><button id="prev-btn" aria-label="Etapa anterior">←</button><span id="page-count"></span><button id="next-btn" aria-label="Próxima etapa">→</button></div>
+</footer>
+</div>
+<dialog id="dialog"><div class="dialog-top"><span id="dialog-kicker"></span><button id="close-dialog" aria-label="Fechar janela">✕</button></div><div id="dialog-content"></div></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="sr-only" id="announcement" aria-live="polite"></div>
+<noscript>Ative o JavaScript para explorar os slides e as simulações locais.</noscript>
+</body>
+</html>

@@ -1,0 +1,9 @@
+CASO FICTÍCIO AURORA — material didático
+Evidência: E04
+Título: Calendário da campanha de aquisição
+Versão: 1.0
+Data: 13/09/2026
+Localização: Vigência
+Fuso do caso: America/Sao_Paulo
+
+A alteração da campanha entrou em vigor em 13/09/2026. O incidente investigado é de 20/09/2026. Nos dois dias comparados, há 500 tentativas no canal app e 500 no canal web. Não há mudança de volume de tentativas que explique a queda de aprovações no cartão.

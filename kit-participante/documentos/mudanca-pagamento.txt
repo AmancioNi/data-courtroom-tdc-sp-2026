@@ -1,0 +1,11 @@
+CASO FICTÍCIO AURORA — material didático
+Evidência: E02
+Título: Registro de alteração e log de pagamento
+Versão: 1.0
+Data: 20/09/2026
+Localização: Seções 1–2
+Fuso do caso: America/Sao_Paulo
+
+10h00 — A configuração do fluxo de cartão passou da versão cfg-16 para cfg-17. A alteração atingiu o parâmetro de validação de credencial do gateway.
+10h07 — Exemplo de registro: método=cartao; status=falhou; erro=CONFIG_INVALID; config=cfg-17. Os registros adicionais de falha por configuração do caso aparecem após 10h00.
+A equipe deve comparar o comportamento anterior e validar a configuração antes de recomendar reversão.

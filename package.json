@@ -1,0 +1,15 @@
+{
+  "name": "data-courtroom",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Júri interativo com integração Oracle AI Data Platform",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --env-file=.env demo-real/demo-server.cjs"
+  },
+  "dependencies": {
+    "oci-common": "2.126.3"
+  }
+}

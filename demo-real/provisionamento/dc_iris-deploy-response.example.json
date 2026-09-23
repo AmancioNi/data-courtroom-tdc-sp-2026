@@ -1,0 +1,5 @@
+{
+  "data": {
+    "endpointUrl": "https://gateway.aidp.REGION.oci.oraclecloud.com/agentendpoint/REPLACE_ENDPOINT_KEY"
+  }
+}

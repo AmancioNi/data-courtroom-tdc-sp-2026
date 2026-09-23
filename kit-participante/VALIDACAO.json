@@ -1,0 +1,13 @@
+{
+  "terraform": "fmt, init, validate passaram; 3 testes com provider mock",
+  "cloud_apply": false,
+  "notebook": "JSON e sintaxe Python validados; não executado em conta de participante",
+  "local_fallback": {
+    "received": 2003,
+    "valid": 2000,
+    "duplicates": 2,
+    "invalid": 1,
+    "revenue": 153000
+  },
+  "format": "reprodução posterior, no seu ritmo; sessão sem hands-on"
+}

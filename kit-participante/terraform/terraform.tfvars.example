@@ -1,0 +1,16 @@
+# Copie para terraform.tfvars e use somente identificadores da sua conta.
+region               = "us-chicago-1"
+oci_profile          = "DEFAULT"
+mode                 = "existing"
+existing_instance_id = "SUBSTITUA_PELO_OCID_DA_SUA_INSTANCIA"
+
+# Para criar outra instância (custos e permissões da SUA conta):
+# mode                      = "new"
+# existing_instance_id      = null
+# compartment_id            = "ocid1.compartment..."
+# display_name              = "tdc-data-courtroom"
+# workspace_name            = "tdc-laboratorio"
+# enable_ai                 = true
+# vector_db_id              = "OCID_DO_LAKEHOUSE_26AI_OU_SUPERIOR"
+# vector_db_admin_secret_id = "ocid1.vaultsecret..."
+# enable_ai=false serve apenas ao percurso de dados; não habilita agentes/RAG.

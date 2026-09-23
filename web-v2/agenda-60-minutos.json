@@ -1,0 +1,152 @@
+{
+  "totalMinutes": 60,
+  "juryMinutes": 30,
+  "format": "demo conduzida; reprodução posterior",
+  "blocks": [
+    {
+      "name": "Júri",
+      "start": 0,
+      "end": 30
+    },
+    {
+      "name": "OCI",
+      "start": 30,
+      "end": 40
+    },
+    {
+      "name": "Perguntas",
+      "start": 40,
+      "end": 60
+    }
+  ],
+  "agenda": [
+    {
+      "slide": 1,
+      "start": 0,
+      "end": 1,
+      "duration": 1,
+      "title": "Abertura",
+      "activity": "Apresentar problema, personagens e formato: júri conduzido, visita ao AIDP e conversa. Ninguém precisa instalar ferramentas."
+    },
+    {
+      "slide": 2,
+      "start": 1,
+      "end": 4,
+      "duration": 3,
+      "title": "Componentes",
+      "activity": "Percorrer o caminho dos personagens em cerca de 90 segundos e situar os componentes. Guardar detalhes de telas para a visita à OCI."
+    },
+    {
+      "slide": 3,
+      "start": 4,
+      "end": 6,
+      "duration": 2,
+      "title": "Incidente e voto",
+      "activity": "Ler os indicadores, registrar a primeira escolha e avançar sem antecipar a correção."
+    },
+    {
+      "slide": 4,
+      "start": 6,
+      "end": 8,
+      "duration": 2,
+      "title": "Fontes",
+      "activity": "Revelar a estratégia da etapa anterior e mostrar as fontes consultadas."
+    },
+    {
+      "slide": 5,
+      "start": 8,
+      "end": 11,
+      "duration": 3,
+      "title": "Preparação",
+      "activity": "Conferir bronze, silver e gold da última execução concluída. Se reexecutar, fazer uma única chamada e distinguir os horários."
+    },
+    {
+      "slide": 6,
+      "start": 11,
+      "end": 13,
+      "duration": 2,
+      "title": "Catálogo",
+      "activity": "Comparar metadados da fonte SQL e da gold. Explicar estrutura e acesso sem encenar troca de identidade."
+    },
+    {
+      "slide": 7,
+      "start": 13,
+      "end": 16,
+      "duration": 3,
+      "title": "Workflow",
+      "activity": "Mostrar tarefas e histórico real. Abrir um script brevemente; os detalhes do Workbench ficam para a visita após o júri."
+    },
+    {
+      "slide": 8,
+      "start": 16,
+      "end": 19,
+      "duration": 3,
+      "title": "Byte",
+      "activity": "Consultar Byte ao entrar. Comparar cartão e Pix, conferindo números e origem. Não antecipar a causa."
+    },
+    {
+      "slide": 9,
+      "start": 19,
+      "end": 22,
+      "duration": 3,
+      "title": "Íris",
+      "activity": "Consultar Íris ao entrar. Conferir um trecho no documento e preservar a diferença entre evidência e conclusão."
+    },
+    {
+      "slide": 10,
+      "start": 22,
+      "end": 24,
+      "duration": 2,
+      "title": "Escopo",
+      "activity": "Executar um teste de escopo e mostrar rastros. Evitar chamadas repetidas para preservar o ritmo."
+    },
+    {
+      "slide": 11,
+      "start": 24,
+      "end": 25,
+      "duration": 1,
+      "title": "Júri",
+      "activity": "Coletar e registrar o voto do júri. O parecer só aparece na próxima etapa."
+    },
+    {
+      "slide": 12,
+      "start": 25,
+      "end": 27,
+      "duration": 2,
+      "title": "Atlas",
+      "activity": "Consultar Atlas com as respostas obtidas. Conferir impacto, limites e próxima verificação."
+    },
+    {
+      "slide": 13,
+      "start": 27,
+      "end": 28,
+      "duration": 1,
+      "title": "Desafio",
+      "activity": "Registrar três respostas de quiz sem correção nesta tela."
+    },
+    {
+      "slide": 14,
+      "start": 28,
+      "end": 30,
+      "duration": 2,
+      "title": "Fechamento da missão",
+      "activity": "Corrigir o quiz e fechar a missão. Convidar o público para ver o AIDP real na OCI; as perguntas amplas ficam para o último bloco."
+    },
+    {
+      "slide": 15,
+      "start": 30,
+      "end": 40,
+      "duration": 10,
+      "title": "Visita à OCI",
+      "activity": "Alternar para a aba já autenticada da OCI/Workbench. Mostrar workspace, catálogo, compute, workflow e agentes já preparados, sem provisionar do zero."
+    },
+    {
+      "slide": 16,
+      "start": 40,
+      "end": 60,
+      "duration": 20,
+      "title": "Perguntas e próximos passos",
+      "activity": "Abrir dúvidas e curiosidades. Mostrar o material para reprodução posterior e encerrar perto de 60 minutos."
+    }
+  ]
+}

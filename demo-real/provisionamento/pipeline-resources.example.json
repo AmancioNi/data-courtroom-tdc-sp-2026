@@ -1,0 +1,7 @@
+{
+  "workspaceKey": "REPLACE_WORKSPACE_KEY",
+  "computeKey": "REPLACE_SPARK_COMPUTE_KEY",
+  "aiComputeKey": "REPLACE_AI_COMPUTE_KEY",
+  "jobKey": "REPLACE_WORKFLOW_KEY",
+  "folder": "/Workspace/DataCourtroom"
+}

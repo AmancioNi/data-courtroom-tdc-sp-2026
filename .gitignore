@@ -1,0 +1,17 @@
+node_modules/
+.env
+.env.*
+!.env.example
+**/.terraform/
+**/__pycache__/
+*.tfstate*
+*.tfplan
+*.tfvars
+!terraform.tfvars.example
+*.pem
+*.key
+*.log
+demo-real/ensaios/
+demo-real/provisionamento/pipeline-resources.json
+demo-real/provisionamento/*-deploy-response.json
+web-v2/materiais/*.zip

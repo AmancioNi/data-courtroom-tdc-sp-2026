@@ -1,0 +1,25 @@
+{
+  "format": "30 min júri + 10 min OCI + 20 min perguntas, sem hands-on",
+  "screens": 16,
+  "ui_test": "passou; APIs substituídas por fixtures, nenhuma nova operação cloud",
+  "new_screens": "15 e 16 sem chamadas API; votação e resposta separadas",
+  "downloads": "dois ZIPs íntegros e servidos por HTTP; conteúdo sem .env, logs ou provider baixado",
+  "javascript": "sintaxe validada",
+  "notebook": "sintaxe Python validada",
+  "local_data": "2.003 recebidos; 2.000 válidos; receita agregada R$ 153.000",
+  "cloud_replication": "não executada em segunda conta; configuração manual necessária",
+  "github": "pasta preparada, publicação pendente do destino",
+  "event_rehearsal": {
+    "date": "2026-09-23",
+    "environment": "ambiente da apresentadora",
+    "agents": "Byte, Íris e Atlas responderam; números, documentos e ressalvas conferidos",
+    "workflow": "carregar, validar e agregar concluídos com sucesso",
+    "data": {
+      "received": 2003,
+      "valid": 2000,
+      "groups": 4,
+      "revenue_brl": 153000
+    },
+    "note": "Não equivale à validação em outra conta OCI."
+  }
+}
