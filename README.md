@@ -18,7 +18,6 @@ Um problema de negócio, três investigadores e um júri. Jogo para entender com
 | Executar processamento no AIDP | [Notebook Spark](kit-participante/notebooks/01-investigacao-spark.ipynb) | Seu workspace e compute Spark |
 | Preparar uma instância | [Terraform](kit-participante/terraform/) | Sua conta OCI e dependências descritas no kit |
 | Conectar a aplicação completa | [Configuração](demo-real/CONFIGURACAO.md) | Banco, catálogo, pipeline, base documental, AI Compute e agentes configurados |
-| Apresentar | [Falas](web-v2/roteiro-de-falas.md) e [visita OCI](demo-real/VISITA-OCI.md) | Ambiente previamente ensaiado |
 
 ## Aplicação integrada
 
