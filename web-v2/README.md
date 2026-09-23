@@ -25,4 +25,4 @@ Esta cópia depende de configuração na sua conta para obter resultados reais. 
 
 ## Reprodução posterior
 
-Abra `materiais.html` para acessar os pacotes preparados para distribuição. O destino GitHub precisa ser configurado após publicação; a página não inventa um endereço. O kit e o código têm escopos distintos, documentados nos respectivos READMEs.
+Abra `materiais.html` para acessar os pacotes preparados para distribuição. O repositório público está em https://github.com/AmancioNi/data-courtroom-tdc-sp-2026. O kit e o código têm escopos distintos, documentados nos respectivos READMEs.

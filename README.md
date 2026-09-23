@@ -4,6 +4,12 @@ Um problema de negócio, três investigadores e um júri. Jogo para entender com
 
 **Sessão:** 30 minutos de júri, 10 de visita à OCI/Workbench e 20 de dúvidas. Sem hands-on durante o evento. Este material é para reprodução posterior, no seu ritmo.
 
+## Downloads
+
+- [Kit de estudo: dados, documentos, notebook e Terraform](https://github.com/AmancioNi/data-courtroom-tdc-sp-2026/releases/download/tdc-sp-2026/Data-Courtroom-kit-participante.zip).
+- [Código completo da aplicação e guias](https://github.com/AmancioNi/data-courtroom-tdc-sp-2026/releases/download/tdc-sp-2026/Data-Courtroom-codigo.zip).
+- [Página da versão do TDC SP 2026](https://github.com/AmancioNi/data-courtroom-tdc-sp-2026/releases/tag/tdc-sp-2026).
+
 ## Comece aqui
 
 | Objetivo | Material | Requisito |
