@@ -47,10 +47,10 @@ Execute `npm install` e `npm start` na raiz. Acesse http://127.0.0.1:4178. O ser
 ## 5. Conferir antes de usar
 
 - Etapa 2: recursos do seu ambiente respondem.
-- Etapas 5–7: métricas, metadados e histórico correspondem à execução do seu workflow.
-- Etapa 8: Byte retorna quatro grupos com números e origem corretos.
-- Etapa 9: Íris devolve trechos verificáveis nos documentos.
-- Etapa 11: registrar voto sem parecer; na 12, enviar as duas respostas a Atlas.
-- Etapas 15–16: visita e conversa; nenhum provisionamento é iniciado por essas telas.
+- Etapas 6–8: métricas, metadados e histórico correspondem à execução do seu workflow.
+- Etapa 9: Byte retorna quatro grupos com números e origem corretos.
+- Etapa 10: Íris devolve trechos verificáveis nos documentos.
+- Etapa 12: registrar voto sem parecer; na 13, enviar as duas respostas a Atlas.
+- Etapas 16–17: visita e conversa; nenhum provisionamento é iniciado por essas telas.
 
 Se alguma consulta falhar, a aplicação mostra o erro. Não há fallback silencioso que invente uma resposta cloud. Para encerrar, pare o servidor e revise sessões, computes e recursos descartáveis criados na sua conta conforme o guia do kit.

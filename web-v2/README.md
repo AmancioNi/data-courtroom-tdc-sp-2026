@@ -1,6 +1,6 @@
 # Data Courtroom — apresentação conectada
 
-**60 minutos, sem hands-on:** 14 etapas de júri em 30 minutos, uma tela de apoio para 10 minutos de visita à OCI e uma para 20 minutos de dúvidas. Três personagens 3D; 16 telas ao todo. Todas as bancadas operacionais consultam o AIDP. Votações e quiz mantêm as respostas na etapa seguinte.
+**60 minutos, sem hands-on:** 15 etapas de júri em 30 minutos, uma tela de apoio para 10 minutos de visita à OCI e uma para 20 minutos de dúvidas. Três personagens 3D; 17 telas ao todo. Todas as bancadas operacionais consultam o AIDP. Votações e quiz mantêm as respostas na etapa seguinte.
 
 ## Abrir
 
@@ -19,7 +19,7 @@ Use `../demo-real/OPERACAO-DEMO.md` como roteiro de palco.
 
 ## Validação e limites
 
-A navegação foi conferida com fixtures de API: 16 telas, agenda contínua de 60 minutos e votação sem resposta antecipada. As novas telas 15 e 16 não disparam operações cloud. O material local de dados também foi executado. Consulte `../kit-participante/VALIDACAO.json` e `../VALIDACAO.json`.
+A navegação foi conferida com fixtures de API: 17 telas, agenda contínua de 60 minutos e votação sem resposta antecipada. As novas telas 16 e 17 não disparam operações cloud. O material local de dados também foi executado. Consulte `../kit-participante/VALIDACAO.json` e `../VALIDACAO.json`.
 
 Esta cópia depende de configuração na sua conta para obter resultados reais. Consulte `../demo-real/CONFIGURACAO.md` antes de iniciar.
 

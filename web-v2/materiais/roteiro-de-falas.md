@@ -4,7 +4,7 @@
 **Apresentadora:** Nikolly Amancio\
 **Evento:** TDC SP 2026\
 **Duração de palco:** 60 minutos — 30 de júri, 10 de visita à OCI e 20 de dúvidas\
-**Formato:** 14 etapas de júri e 2 telas de apoio para visita e conversa, com Byte, Íris e Atlas\
+**Formato:** 15 etapas de júri e 2 telas de apoio para visita e conversa, com Byte, Íris e Atlas\
 **Atualização:** 22/09/2026\
 **Aplicação:** http://127.0.0.1:4178/#1
 
@@ -18,7 +18,7 @@ As falas atribuídas aos personagens são interpretadas pela apresentadora. Não
 
 Cada etapa traz objetivo, sequência de cliques, fala, leitura do resultado, transição e orientações para imprevistos. Durante o ensaio, marque as frases que combinam com sua maneira de falar. Não é necessário decorar os parágrafos.
 
-**Regra de ouro das votações:** na etapa de votação, registre a escolha sem confirmar, negar ou explicar. A resposta só aparece na etapa seguinte. Isso vale para a decisão inicial, o voto do júri e o desafio final. Não antecipe o parecer de Atlas enquanto estiver no slide 11.
+**Regra de ouro das votações:** na etapa de votação, registre a escolha sem confirmar, negar ou explicar. A resposta só aparece na etapa seguinte. Isso vale para a decisão inicial, o voto do júri e o desafio final. Não antecipe o parecer de Atlas enquanto estiver no slide 12.
 
 ## Tom da conversa e ritmo de palco
 
@@ -38,7 +38,7 @@ Os nomes dos personagens dão leveza. Não é necessário fazer vozes ou transfo
 | Preparação | “Uma linha é sempre uma compra?” | Pausa de 3 segundos, depois confira os dados |
 | Byte, após o retorno | “O que mudou? O que ficou igual?” | Ouça uma observação sobre os números, sem pedir a causa |
 | Íris, após o retorno | “Onde vocês confeririam esse trecho?” | Aponte o documento e abra a fonte |
-| Atlas, somente no slide 12 | “Essa conclusão vai além da prova?” | Uma reação breve; corrija exageros |
+| Atlas, somente no slide 13 | “Essa conclusão vai além da prova?” | Uma reação breve; corrija exageros |
 
 As votações continuam neutras. Essas participações não substituem nem antecipam suas respostas. Se houver atraso, corte primeiro as perguntas extras.
 
@@ -50,20 +50,21 @@ As votações continuam neutras. Essas participações não substituem nem antec
 |---|---|---|---|
 | 1 | 00:00–01:00 | Convocar o júri | Aplicação consulta o ambiente |
 | 2 | 01:00–04:00 | Organizar a investigação | Recursos e estados vêm do AIDP |
-| 3 | 04:00–06:00 | Observar o incidente e votar | Indicadores da última preparação concluída; voto local |
-| 4 | 06:00–08:00 | Examinar as fontes | Leitura de catálogo, tabela, volume e arquivos |
-| 5 | 08:00–11:00 | Preparar as provas | Resultados do Spark e possibilidade de iniciar workflow |
-| 6 | 11:00–13:00 | Localizar e entender ativos | Metadados e permissões retornados pela API |
-| 7 | 13:00–16:00 | Acompanhar o trabalho | Estados, histórico e scripts reais do workspace |
-| 8 | 16:00–19:00 | Ouvir Byte | Agente executa ferramenta SQL de leitura |
-| 9 | 19:00–22:00 | Ouvir Íris | Agente usa RAG; documentos podem ser abertos no volume |
-| 10 | 22:00–24:00 | Testar os limites | Solicitação real ao agente e rastros da execução |
-| 11 | 24:00–25:00 | Registrar o voto | Escolha local, sem parecer |
-| 12 | 25:00–27:00 | Ouvir Atlas | Agente recebe as respostas reais de Byte e Íris |
-| 13 | 27:00–28:00 | Desafio final | Três escolhas pedagógicas, sem correção |
-| 14 | 28:00–30:00 | Conferir e encerrar | Respostas do quiz, histórico e relatório real |
-| 15 | 30:00–40:00 | Visitar a OCI/Workbench | Recursos reais na interface nativa |
-| 16 | 40:00–60:00 | Conversar e compartilhar materiais | Dúvidas, curiosidades e reprodução posterior |
+| 3 | 04:00–05:00 | Entender o problema da empresa | Cena fictícia: Aurora, alerta do Financeiro e perspectivas da equipe |
+| 4 | 05:00–07:00 | Observar o incidente e votar | Indicadores da última preparação concluída; voto local |
+| 5 | 07:00–08:00 | Examinar as fontes | Leitura de catálogo, tabela, volume e arquivos |
+| 6 | 08:00–11:00 | Preparar as provas | Resultados do Spark e possibilidade de iniciar workflow |
+| 7 | 11:00–13:00 | Localizar e entender ativos | Metadados e permissões retornados pela API |
+| 8 | 13:00–16:00 | Acompanhar o trabalho | Estados, histórico e scripts reais do workspace |
+| 9 | 16:00–19:00 | Ouvir Byte | Agente executa ferramenta SQL de leitura |
+| 10 | 19:00–22:00 | Ouvir Íris | Agente usa RAG; documentos podem ser abertos no volume |
+| 11 | 22:00–24:00 | Testar os limites | Solicitação real ao agente e rastros da execução |
+| 12 | 24:00–25:00 | Registrar o voto | Escolha local, sem parecer |
+| 13 | 25:00–27:00 | Ouvir Atlas | Agente recebe as respostas reais de Byte e Íris |
+| 14 | 27:00–28:00 | Desafio final | Três escolhas pedagógicas, sem correção |
+| 15 | 28:00–30:00 | Conferir e encerrar | Respostas do quiz, histórico e relatório real |
+| 16 | 30:00–40:00 | Visitar a OCI/Workbench | Recursos reais na interface nativa |
+| 17 | 40:00–60:00 | Conversar e compartilhar materiais | Dúvidas, curiosidades e reprodução posterior |
 
 ## Formato desta sessão
 
@@ -85,8 +86,8 @@ O [kit de reprodução](../../kit-participante/README.md) será disponibilizado 
 
 1. Execute [iniciar-demo-real.cmd](../../demo-real/iniciar-demo-real.cmd). Mantenha o terminal aberto e abra o endereço da aplicação. A pasta está em `outputs/tdc_sp_2026/demo-real`.
 2. No slide 2, confira se os recursos do ambiente respondem. Se um recurso falhar, resolva antes do início; abrir a página não prova que todas as integrações estejam funcionando.
-3. Execute a preparação e confirme as três tarefas com sucesso no slide 7. O Spark pode precisar iniciar. Não deixe a primeira inicialização para os três minutos reservados ao workflow.
-4. Confira no slide 5 a data do resultado e as contagens. O conjunto do ensaio possui 2.003 registros recebidos, 2 duplicatas, 1 inválido e 2.000 válidos.
+3. Execute a preparação e confirme as três tarefas com sucesso no slide 8. O Spark pode precisar iniciar. Não deixe a primeira inicialização para os três minutos reservados ao workflow.
+4. Confira no slide 6 a data do resultado e as contagens. O conjunto do ensaio possui 2.003 registros recebidos, 2 duplicatas, 1 inválido e 2.000 válidos.
 5. Consulte Byte e Íris. Confira números e fontes. Registre um voto e consulte Atlas no slide seguinte para testar o percurso completo.
 6. Confira o tamanho da fonte no projetor, o zoom, a rolagem do painel e a visibilidade das tabelas. O texto pode ocupar mais espaço conforme a resposta do modelo.
 7. Teste a conexão que será usada no evento. Os tempos variam com rede, compute e serviço. Ensaios anteriores levaram aproximadamente 30–35 segundos para Byte, cerca de 70 segundos para Íris e 17–20 segundos para Atlas; isso é referência de ensaio, não garantia.
@@ -167,9 +168,9 @@ Clique em **Começar o caminho →**. Um personagem apresenta cada componente. O
 5. **Byte / Workflow:** “O workflow define tarefas e dependências para repetir o trabalho na ordem estabelecida.”
 6. **Atlas / AI Compute:** “O AI Compute fornece recursos para executar agentes. Eles usam modelos e ferramentas; o compute não é o próprio modelo.”
 
-As falas dos personagens são didáticas, não respostas geradas nesta visita. **Entender um pouco mais** abre o complemento; **Conferir no ambiente AIDP** mostra os recursos consultados. No workflow, o painel orienta a conferir a execução real na etapa 7.
+As falas dos personagens são didáticas, não respostas geradas nesta visita. **Entender um pouco mais** abre o complemento; **Conferir no ambiente AIDP** mostra os recursos consultados. No workflow, o painel orienta a conferir a execução real na etapa 8.
 
-O caminho representa a ordem da explicação, não um pipeline pelo qual todos os dados passam. Nenhum clique inicia compute ou agente. O parecer continua reservado à etapa 12, depois da votação.
+O caminho representa a ordem da explicação, não um pipeline pelo qual todos os dados passam. Nenhum clique inicia compute ou agente. O parecer continua reservado à etapa 13, depois da votação.
 
 **Concluir visita ✓**, **Voltar ao slide ×** ou Escape retornam à apresentação. Use essa visita como a explicação principal; depois peça ao público que diferencie workspace, compute e workflow. Evite repetir toda a fala abaixo se os conceitos já ficaram claros.
 
@@ -183,7 +184,7 @@ O caminho representa a ordem da explicação, não um pipeline pelo qual todos o
 >
 > Para este laboratório, usei AIDP para montar esse fluxo. Dá para investigar o mesmo problema com SQL, scripts e leitura dos documentos, sem agentes. A pergunta que quero explorar com vocês é: o que conseguimos facilitar com essa aplicação, e o que ainda exige nossa revisão?
 >
-> Então não precisam decorar este mapa. Guardem três necessidades: conferir os números, encontrar contexto e conseguir revisar a conclusão. Agora vamos olhar o alerta.”
+> Então não precisam decorar este mapa. Guardem três necessidades: conferir os números, encontrar contexto e conseguir revisar a conclusão. Agora vamos conhecer a empresa que recebeu esse alerta.”
 
 **Aprofundamento para ensaio**
 
@@ -197,9 +198,31 @@ Um catálogo não é um modelo de linguagem. Um volume não é uma base vetorial
 
 **Transição**
 
-> “Vamos olhar o que mudou nesses dois dias.”
+> “Antes de olhar os números, precisamos entender de quem é esse problema.”
 
-## 3. O incidente e a primeira decisão — 04:00 a 06:00
+## 3. O problema da Aurora — 04:00 a 05:00
+
+**Objetivo:** dar um motivo para a investigação: quem é a empresa, qual alerta recebeu, quem precisa de uma resposta e que decisão está em jogo.
+
+**Fala de palco — aproximadamente 45 segundos**
+
+> “Agora imaginem a Aurora, uma loja que vende pelo site e pelo aplicativo. No fechamento do dia, o Financeiro percebe que entrou menos receita aprovada. Só que as tentativas de compra continuam chegando.
+>
+> Esse alerta afeta mais de uma equipe: o Financeiro precisa explicar a queda, o Comercial quer entender a experiência do cliente e Operações precisa saber onde agir.
+>
+> Antes de escolher uma solução, precisamos entender o problema. É isso que vocês vão julgar comigo: o que mudou e o que as provas permitem concluir.”
+
+**Clique:** explore uma das perspectivas — **Financeiro**, **Comercial** ou **Operações**. O painel mostra apenas a preocupação daquela equipe. Não é uma votação nem uma resposta gerada por um agente. Não precisa ler as três perspectivas no palco.
+
+**Condução:** mantenha um minuto nesta tela. Os valores, o recorte e a comparação ficam para a próxima. Não mencione cfg-17, erros de configuração, a concentração no cartão ou a hipótese mais sustentada. O propósito é apresentar o problema, sem resolver a investigação.
+
+**Transição:**
+
+> “Temos o alerta e uma pergunta de negócio. Agora vamos olhar os números que chegaram à equipe.”
+
+Clique em **Vamos entender o alerta →**. A próxima tela apresenta indicadores consultados no AIDP e a primeira escolha do júri.
+
+## 4. O incidente e a primeira decisão — 05:00 a 07:00
 
 
 
@@ -226,11 +249,11 @@ Um catálogo não é um modelo de linguagem. Um volume não é uma base vetorial
 
 **Clique:** selecione a alternativa combinada. Diga apenas “Escolha registrada”. Clique em **Registrar e avançar →**.
 
-**Não faça aqui:** elogiar a segunda alternativa, criticar as outras ou anunciar a hipótese de pagamento. A explicação pertence ao slide 4.
+**Não faça aqui:** elogiar a segunda alternativa, criticar as outras ou anunciar a hipótese de pagamento. A explicação pertence ao slide 5.
 
 **Se os valores mudarem:** acompanhe os valores retornados, confira o recorte e não force o enredo numérico do ensaio. Se não houver dados, explique a indisponibilidade e conduza apenas a pergunta sobre estratégia.
 
-## 4. Examine as fontes — 06:00 a 08:00
+## 5. Examine as fontes — 07:00 a 08:00
 
 
 
@@ -240,15 +263,13 @@ Um catálogo não é um modelo de linguagem. Um volume não é uma base vetorial
 
 **Fala de palco, depois da troca de slide**
 
-> “Vamos cruzar os números com os documentos. O painel mostra a queda; precisamos descobrir onde ela aparece e o que estava acontecendo naquele momento.
+**Ritmo:** um minuto; reconhecer as fontes agora e aprofundar catálogo e documentos nas etapas seguintes.
+
+> “Vamos cruzar números e documentos. Os pagamentos numa tabela permitem comparar os dias. Os registros da operação podem explicar o contexto daquele período.
 >
-> Aqui temos pagamentos numa tabela e registros da operação em arquivos. A tabela ajuda a comparar os dias. Os documentos podem trazer uma mudança, um erro ou uma conferência feita pela equipe.
+> Aqui vemos os dois tipos de fonte: a tabela relacional que Byte consulta e os documentos que Íris vai buscar. Também temos o arquivo que passa pela preparação no Spark.
 >
-> Eu deixei esses materiais acessíveis por esta aplicação. A tabela está no catálogo tdcsp; os arquivos estão num volume. São os lugares onde vamos buscar as provas.
->
-> Também preparei um CSV para mostrar o tratamento dos dados no Spark. São dois caminhos do mesmo caso: Byte consulta a tabela relacional; a preparação gera outras tabelas para analisarmos. Rodar essa preparação não altera os pagamentos na origem.
->
-> Agora, antes de confiar no resumo: será que tudo o que chegou nesse arquivo deveria entrar na conta?”
+> Antes de confiar nos indicadores, vamos conferir como os dados foram preparados.”
 
 **Aprofundamento: os dois caminhos que não devem ser confundidos**
 
@@ -264,7 +285,7 @@ São percursos do mesmo caso fictício. Não afirme que Byte lê automaticamente
 
 > “O arquivo chegou. Será que contar suas linhas já responde quantas tentativas de compra tivemos?”
 
-## 5. Prepare os dados — 08:00 a 11:00
+## 6. Prepare os dados — 08:00 a 11:00
 
 
 
@@ -275,8 +296,8 @@ São percursos do mesmo caso fictício. Não afirme que Byte lê automaticamente
 1. Mostre **BRONZE**, a contagem recebida e a amostra retornada pelo Spark.
 2. Clique em **SILVER** e confira válidos, duplicatas e inválidos.
 3. Clique em **GOLD** e mostre os quatro grupos por dia e método.
-4. Se o ambiente estiver pronto e o cronograma permitir, clique uma vez em **Reexecutar preparação no AIDP**. Esse botão leva ao slide 7 e inicia uma execução, ou acompanha uma que já esteja ativa. Apresente brevemente seu início e volte ao slide 6 pela navegação; retome o workflow no horário previsto.
-5. Se preferir navegação estritamente sequencial, mostre as camadas agora e inicie a execução apenas no slide 7. Diga que estes resultados são de uma execução anterior concluída.
+4. Se o ambiente estiver pronto e o cronograma permitir, clique uma vez em **Reexecutar preparação no AIDP**. Esse botão leva ao slide 8 e inicia uma execução, ou acompanha uma que já esteja ativa. Apresente brevemente seu início e volte ao slide 7 pela navegação; retome o workflow no horário previsto.
+5. Se preferir navegação estritamente sequencial, mostre as camadas agora e inicie a execução apenas no slide 8. Diga que estes resultados são de uma execução anterior concluída.
 
 **Fala de Byte, interpretada por você**
 
@@ -310,7 +331,7 @@ Não prometa que trocar uma aba reconstrói uma tabela. Não diga “acabamos de
 
 > “Tratamos os registros. Agora precisamos saber como encontrar e entender os ativos que produzimos.”
 
-## 6. Catálogo e acesso — 11:00 a 13:00
+## 7. Catálogo e acesso — 11:00 a 13:00
 
 
 
@@ -344,7 +365,7 @@ Não prometa que trocar uma aba reconstrói uma tabela. Não diga “acabamos de
 
 > “Vamos acompanhar como a preparação foi organizada para ser repetida.”
 
-## 7. Workflow e código — 13:00 a 16:00
+## 8. Workflow e código — 13:00 a 16:00
 
 
 
@@ -352,7 +373,7 @@ Não prometa que trocar uma aba reconstrói uma tabela. Não diga “acabamos de
 
 **Cliques**
 
-1. Se ainda não iniciou nesta rodada, clique em **Executar workflow no AIDP** uma vez. Se já iniciou no slide 5, acompanhe a execução existente.
+1. Se ainda não iniciou nesta rodada, clique em **Executar workflow no AIDP** uma vez. Se já iniciou no slide 6, acompanhe a execução existente.
 2. Mostre **carregar → validar → agregar** e os estados retornados.
 3. Abra **Código salvo no workspace** e selecione **Validar** ou **Agregar**. Explique uma operação; não leia o script inteiro.
 4. Abra **Histórico real**. Diferencie a execução atual das anteriores.
@@ -388,7 +409,7 @@ Não use o roteiro antigo de “simular falha na validação”: esse controle n
 
 > “Agora vamos consultar o agente que investiga os números.”
 
-## 8. Byte interroga os números — 16:00 a 19:00
+## 9. Byte interroga os números — 16:00 a 19:00
 
 
 
@@ -416,7 +437,7 @@ Não use o roteiro antigo de “simular falha na validação”: esse controle n
 >
 > Podemos conferir a conta na tabela. A explicação em linguagem natural vem acompanhada de números verificáveis.”
 
-**Observação operacional:** o retorno fica na sessão da aba e será enviado a Atlas no slide 12. Não existe mais um clique manual de “Guardar E01”. Abrir **Dados da execução** permite conferir tempo e sessão; **Baixar resposta original** preserva o texto recebido, sem repeti-lo no painel principal.
+**Observação operacional:** o retorno fica na sessão da aba e será enviado a Atlas no slide 13. Não existe mais um clique manual de “Guardar E01”. Abrir **Dados da execução** permite conferir tempo e sessão; **Baixar resposta original** preserva o texto recebido, sem repeti-lo no painel principal.
 
 **Aprofundamento numérico, apenas se perguntarem**
 
@@ -432,7 +453,7 @@ Não corrija silenciosamente o resultado do agente com o gabarito do roteiro.
 
 > “Temos o padrão dos números. Íris vai procurar o contexto nos documentos.”
 
-## 9. Íris lê os documentos — 19:00 a 22:00
+## 10. Íris lê os documentos — 19:00 a 22:00
 
 
 
@@ -476,7 +497,7 @@ Não corrija silenciosamente o resultado do agente com o gabarito do roteiro.
 
 > “Antes de enviar o dossiê ao tribunal, precisamos entender até onde esses agentes podem agir.”
 
-## 10. Escopo e rastros — 22:00 a 24:00
+## 11. Escopo e rastros — 22:00 a 24:00
 
 
 
@@ -522,7 +543,7 @@ Não corrija silenciosamente o resultado do agente com o gabarito do roteiro.
 
 > “Já examinamos números, documentos e limites. Agora o júri registra sua hipótese.”
 
-## 11. A decisão do júri — 24:00 a 25:00
+## 12. A decisão do júri — 24:00 a 25:00
 
 
 
@@ -549,13 +570,13 @@ Não corrija silenciosamente o resultado do agente com o gabarito do roteiro.
 
 **Não dizer:** “Boa!”, “É isso!”, “Vocês acertaram” ou “Lembrem daquela mudança às dez horas”. Essas frases antecipam a correção. Atlas não recebe a popularidade da alternativa como evidência e não precisa concordar com o júri.
 
-## 12. O parecer de Atlas — 25:00 a 27:00
+## 13. O parecer de Atlas — 25:00 a 27:00
 
 
 
 **Objetivo:** obter uma síntese curta e revisável, com hipótese, impacto e próxima verificação.
 
-**Clique somente após chegar ao slide 12:** **Consultar Atlas**. A aplicação exige um voto registrado e as respostas de Byte e Íris.
+**Clique somente após chegar ao slide 13:** **Consultar Atlas**. A aplicação exige um voto registrado e as respostas de Byte e Íris.
 
 **Fala enquanto consulta**
 
@@ -587,7 +608,7 @@ O último ensaio mostrou que o modelo pode ainda usar expressões fortes sobre r
 
 > “Neste retorno, Atlas identifica uma lacuna. Vamos observar qual prova falta. A conclusão deve acompanhar o dossiê recebido, não a expectativa de chegar a uma resposta específica.”
 
-**Se faltarem respostas no aplicativo:** volte à etapa 8 ou 9 e obtenha o retorno. Não existe mais uma caixa para retirar e recolocar E02 nem um simulador de recuperação de receita. A aplicação envia os textos das respostas guardadas na sessão.
+**Se faltarem respostas no aplicativo:** volte à etapa 9 ou 10 e obtenha o retorno. Não existe mais uma caixa para retirar e recolocar E02 nem um simulador de recuperação de receita. A aplicação envia os textos das respostas guardadas na sessão.
 
 **Conexão com o jogo**
 
@@ -597,7 +618,7 @@ O último ensaio mostrou que o modelo pode ainda usar expressões fortes sobre r
 
 > “Antes de encerrar, três perguntas sobre as escolhas que fizemos.”
 
-## 13. Desafio AIDP — 27:00 a 28:00
+## 14. Desafio AIDP — 27:00 a 28:00
 
 
 
@@ -631,7 +652,7 @@ O último ensaio mostrou que o modelo pode ainda usar expressões fortes sobre r
 
 Se alguém responder em voz alta com uma justificativa, agradeça a participação sem validar e diga que vocês vão conferir após avançar.
 
-## 14. Respostas e transição para a OCI — 28:00 a 30:00
+## 15. Respostas e transição para a OCI — 28:00 a 30:00
 
 
 
@@ -649,7 +670,7 @@ Se alguém responder em voz alta com uma justificativa, agradeça a participaç�
 >
 > Eu usei AIDP para montar esse caminho. Em outro ambiente, vocês podem montar algo diferente. O que vale levar é a sequência: entender a pergunta, buscar a prova certa e conferir o que a resposta permite concluir.”
 
-**Gabarito para sua conferência:** 1-B, 2-C, 3-A. Só comentar após o slide 13.
+**Gabarito para sua conferência:** 1-B, 2-C, 3-A. Só comentar após o slide 14.
 
 **Clique opcional:** mostre **Registro real da missão**, o histórico e **Baixar relatório real**. **Resumo da missão** também aciona o relatório conectado. Não abra o JSON inteiro no projetor se isso consumir a pergunta final.
 
@@ -663,7 +684,7 @@ Se alguém responder em voz alta com uma justificativa, agradeça a participaç�
 
 > “A missão do júri terminou. Vamos trocar de tela e reconhecer os mesmos recursos no ambiente em que eles executaram.”
 
-## 15. Visita ao AIDP na OCI — 30:00 a 40:00
+## 16. Visita ao AIDP na OCI — 30:00 a 40:00
 
 **Objetivo:** mostrar a interface real dos componentes que o público acabou de conhecer. Use uma aba já autenticada e o [roteiro da visita](../../demo-real/VISITA-OCI.md).
 
@@ -691,11 +712,11 @@ Mostre `tdccluster`, `dc_preparar_pagamentos` e uma execução concluída. Se su
 
 > “O personagem do jogo corresponde a um agente configurado. Em Byte, a ferramenta é uma consulta SQL. Em Íris, a ferramenta recupera conteúdo da base. O AI Compute atende os agentes; ele não é o modelo em si.”
 
-Mostre `dc_byte`, `dc_iris`, `computetdc` e `kb_aurora_evidencias` conforme o tempo. Não é preciso invocar novamente. Retorne ao slide 16.
+Mostre `dc_byte`, `dc_iris`, `computetdc` e `kb_aurora_evidencias` conforme o tempo. Não é preciso invocar novamente. Retorne ao slide 17.
 
 **Se a interface ou sessão falhar:** explique a indisponibilidade e use os estados, código e documentos já consultados na aplicação. Não substitua a tela por uma captura sem avisar que é um registro anterior.
 
-## 16. Dúvidas, curiosidades e material — 40:00 a 60:00
+## 17. Dúvidas, curiosidades e material — 40:00 a 60:00
 
 **Objetivo:** deixar a conversa conduzir o aprofundamento, sem outro bloco obrigatório de conteúdo.
 
@@ -728,18 +749,19 @@ Abra **Abrir materiais**. Apresente o link GitHub quando publicado; enquanto o d
 |---|---|---|
 | 1 | Iniciar a missão | “Caso fictício, operações reais.” |
 | 2 | Mostrar caminho dos personagens | “Cada peça tem uma responsabilidade.” |
-| 3 | Registrar a decisão e avançar | “Escolha registrada.” |
-| 4 | Conferir fontes reais | “Números e documentos respondem a perguntas diferentes.” |
-| 5 | Bronze → Silver → Gold | “Esta é a última execução concluída.” |
-| 6 | SQL → Gold; colunas | “Localizar não é o mesmo que validar.” |
-| 7 | Acompanhar workflow e abrir um script | “Qual execução produziu o resultado?” |
-| 8 | Consultar Byte | “A ferramenta calcula; nós conferimos.” |
-| 9 | Consultar Íris e abrir uma fonte | “O trecho precisa poder ser conferido.” |
-| 10 | Um teste e rastros | “Recomendar não concede poder de alterar.” |
-| 11 | Registrar o voto e avançar | “O parecer vem na próxima etapa.” |
-| 12 | Consultar Atlas | “Suspeita sustentada não é causa comprovada.” |
-| 13 | Três escolhas e avançar | “A explicação fica no próximo slide.” |
-| 14 | Corrigir e passar à visita OCI | “A resposta continua sujeita à revisão.” |
+| 3 | Apresentar Aurora e uma perspectiva da equipe | “O movimento continua, mas a receita aprovada diminuiu.” |
+| 4 | Registrar a decisão e avançar | “Escolha registrada.” |
+| 5 | Conferir fontes reais | “Números e documentos respondem a perguntas diferentes.” |
+| 6 | Bronze → Silver → Gold | “Esta é a última execução concluída.” |
+| 7 | SQL → Gold; colunas | “Localizar não é o mesmo que validar.” |
+| 8 | Acompanhar workflow e abrir um script | “Qual execução produziu o resultado?” |
+| 9 | Consultar Byte | “A ferramenta calcula; nós conferimos.” |
+| 10 | Consultar Íris e abrir uma fonte | “O trecho precisa poder ser conferido.” |
+| 11 | Um teste e rastros | “Recomendar não concede poder de alterar.” |
+| 12 | Registrar o voto e avançar | “O parecer vem na próxima etapa.” |
+| 13 | Consultar Atlas | “Suspeita sustentada não é causa comprovada.” |
+| 14 | Três escolhas e avançar | “A explicação fica no próximo slide.” |
+| 15 | Corrigir e passar à visita OCI | “A resposta continua sujeita à revisão.” |
 
 ## Se a consulta demorar ou falhar
 
@@ -779,7 +801,7 @@ Não apresente a divergência como uma funcionalidade desejada nem esconda o err
 
 **Preserve:** fonte e data dos resultados, comparação cartão/Pix, conferência de pelo menos um documento, voto antes do parecer e distinção entre suspeita e causalidade.
 
-**Se estiver até dois minutos atrasada:** reduza explicações extras e consulte o agente assim que entrar na etapa. **Se estiver mais atrasada:** use os rastros já disponíveis no slide 10 sem iniciar outro teste, dizendo que são de chamadas anteriores desta sessão. Não afirme ter realizado um teste que foi cortado.
+**Se estiver até dois minutos atrasada:** reduza explicações extras e consulte o agente assim que entrar na etapa. **Se estiver mais atrasada:** use os rastros já disponíveis no slide 11 sem iniciar outro teste, dizendo que são de chamadas anteriores desta sessão. Não afirme ter realizado um teste que foi cortado.
 
 ## Conferência numérica — material da apresentadora
 

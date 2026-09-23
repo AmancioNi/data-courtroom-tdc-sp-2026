@@ -1,4 +1,5 @@
 'use strict';
+// stage identifica a operação da API; a posição visual está em content.js (operationStage).
 const http=require('http'),fs=require('fs'),path=require('path');
 const {invoke}=require('./provisionamento/invoke-agent.cjs');const {live}=require('./live-service.cjs');
 const root=path.resolve(__dirname,'../web-v2'),port=Number(process.env.COURTROOM_PORT||4178);let running=false,starting=false;const executions=[];

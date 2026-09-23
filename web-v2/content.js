@@ -87,6 +87,47 @@ c.scenes.push({id:'conclusao',chapter:'Missão concluída',time:'28–30 min',du
 (()=>{const c=window.COURTROOM_CONTENT;
 c.scenes.push({id:'visita-oci',chapter:'O AIDP na OCI',art:'arquivo',eyebrow:'30–40 MIN · POR DENTRO DO AMBIENTE',title:'Agora, vamos ver onde isso acontece.',intro:'Saímos do tribunal e entramos no Workbench para reconhecer os recursos usados na investigação.',points:['Workspace e arquivos do projeto.','Catálogo, processamento e histórico do workflow.','Agentes, ferramentas e base documental.'],case:'Visita conduzida pela apresentadora. Os recursos já estão preparados; o público acompanha sem instalação.',concept:null,notes:'Abrir a aba OCI/Workbench previamente autenticada. Seguir o roteiro de visita em 10 minutos, sem mostrar credenciais nem iniciar provisionamento.'});
 c.scenes.push({id:'perguntas',chapter:'Dúvidas e curiosidades',art:'tribunal',eyebrow:'40–60 MIN · A CONVERSA CONTINUA',title:'O que vocês querem explorar?',intro:'Vamos conversar sobre decisões de arquitetura, limites e como adaptar a investigação a outros problemas.',points:['O que você mudaria neste desenho?','Que evidência exigiria antes de agir?','Que parte gostaria de reproduzir depois?'],case:'O material de reprodução é para depois do evento. Terraform, notebook, dados e instruções acompanham o projeto.',concept:null,notes:'Reservar aproximadamente 15 minutos para perguntas, 3 para explicar o material e 2 para fechar. Não prometer provisionamento completo pelo Terraform atual.'});
+// Identificadores de operação permanecem estáveis quando a ordem visual muda.
+c.scenes.forEach((scene,i)=>{scene.operationStage=i+1;});
+c.scenes.splice(2,0,{
+  "id": "empresa",
+  "operationStage": 0,
+  "chapter": "O problema da Aurora",
+  "art": "tribunal",
+  "eyebrow": "ANTES DA INVESTIGAÇÃO · CONHEÇA A EMPRESA",
+  "title": "A Aurora tem um problema para resolver.",
+  "intro": "A Aurora é uma loja fictícia que vende pelo site e pelo app. No fechamento do dia, o Financeiro percebe uma queda na receita aprovada.",
+  "points": [
+    "As tentativas de compra continuam chegando.",
+    "Tentar comprar não significa ter o pagamento aprovado.",
+    "A equipe precisa entender o que mudou antes de decidir como agir."
+  ],
+  "case": "Sua missão como júri: avaliar a explicação para a queda e a próxima verificação que as provas sustentam.",
+  "concept": null,
+  "guide": "atlas",
+  "notes": "Reserve um minuto. Apresente a Aurora, o alerta do Financeiro e o impacto para quem toma decisões. Clique em uma perspectiva da equipe e ouça a pergunta. Não antecipe números por método, documentos de alteração nem a causa. A próxima tela mostra os indicadores reais e coleta a primeira escolha.",
+  "perspectives": [
+    {
+      "id": "financeiro",
+      "label": "Financeiro",
+      "title": "Explicar a queda de receita",
+      "text": "“Preciso entender por que entrou menos receita aprovada, mesmo com tentativas de compra chegando.”"
+    },
+    {
+      "id": "comercial",
+      "label": "Comercial",
+      "title": "Entender a experiência de compra",
+      "text": "“As pessoas continuam tentando comprar. O que está impedindo essas tentativas de virarem vendas aprovadas?”"
+    },
+    {
+      "id": "operacoes",
+      "label": "Operações",
+      "title": "Decidir onde agir",
+      "text": "“Antes de mudar alguma coisa, precisamos localizar o problema e saber qual verificação fazer.”"
+    }
+  ]
+});
+c.stageSlides=Object.fromEntries(c.scenes.filter(scene=>scene.operationStage).map((scene,i)=>[scene.operationStage,c.scenes.indexOf(scene)+1]));
 c.agenda=[
   {
     "slide": 1,
@@ -107,21 +148,29 @@ c.agenda=[
   {
     "slide": 3,
     "start": 4,
-    "end": 6,
+    "end": 5,
+    "duration": 1,
+    "title": "O problema da Aurora",
+    "activity": "Contextualizar a loja, o alerta do Financeiro e a decisão que a empresa precisa tomar. Explorar uma perspectiva da equipe, sem apontar a causa."
+  },
+  {
+    "slide": 4,
+    "start": 5,
+    "end": 7,
     "duration": 2,
     "title": "Incidente e voto",
     "activity": "Ler os indicadores, registrar a primeira escolha e avançar sem antecipar a correção."
   },
   {
-    "slide": 4,
-    "start": 6,
+    "slide": 5,
+    "start": 7,
     "end": 8,
-    "duration": 2,
+    "duration": 1,
     "title": "Fontes",
-    "activity": "Revelar a estratégia da etapa anterior e mostrar as fontes consultadas."
+    "activity": "Revelar a estratégia da votação anterior e reconhecer as fontes. Deixar a leitura detalhada dos documentos para Íris."
   },
   {
-    "slide": 5,
+    "slide": 6,
     "start": 8,
     "end": 11,
     "duration": 3,
@@ -129,7 +178,7 @@ c.agenda=[
     "activity": "Conferir bronze, silver e gold da última execução concluída. Se reexecutar, fazer uma única chamada e distinguir os horários."
   },
   {
-    "slide": 6,
+    "slide": 7,
     "start": 11,
     "end": 13,
     "duration": 2,
@@ -137,7 +186,7 @@ c.agenda=[
     "activity": "Comparar metadados da fonte SQL e da gold. Explicar estrutura e acesso sem encenar troca de identidade."
   },
   {
-    "slide": 7,
+    "slide": 8,
     "start": 13,
     "end": 16,
     "duration": 3,
@@ -145,7 +194,7 @@ c.agenda=[
     "activity": "Mostrar tarefas e histórico real. Abrir um script brevemente; os detalhes do Workbench ficam para a visita após o júri."
   },
   {
-    "slide": 8,
+    "slide": 9,
     "start": 16,
     "end": 19,
     "duration": 3,
@@ -153,7 +202,7 @@ c.agenda=[
     "activity": "Consultar Byte ao entrar. Comparar cartão e Pix, conferindo números e origem. Não antecipar a causa."
   },
   {
-    "slide": 9,
+    "slide": 10,
     "start": 19,
     "end": 22,
     "duration": 3,
@@ -161,7 +210,7 @@ c.agenda=[
     "activity": "Consultar Íris ao entrar. Conferir um trecho no documento e preservar a diferença entre evidência e conclusão."
   },
   {
-    "slide": 10,
+    "slide": 11,
     "start": 22,
     "end": 24,
     "duration": 2,
@@ -169,7 +218,7 @@ c.agenda=[
     "activity": "Executar um teste de escopo e mostrar rastros. Evitar chamadas repetidas para preservar o ritmo."
   },
   {
-    "slide": 11,
+    "slide": 12,
     "start": 24,
     "end": 25,
     "duration": 1,
@@ -177,7 +226,7 @@ c.agenda=[
     "activity": "Coletar e registrar o voto do júri. O parecer só aparece na próxima etapa."
   },
   {
-    "slide": 12,
+    "slide": 13,
     "start": 25,
     "end": 27,
     "duration": 2,
@@ -185,7 +234,7 @@ c.agenda=[
     "activity": "Consultar Atlas com as respostas obtidas. Conferir impacto, limites e próxima verificação."
   },
   {
-    "slide": 13,
+    "slide": 14,
     "start": 27,
     "end": 28,
     "duration": 1,
@@ -193,7 +242,7 @@ c.agenda=[
     "activity": "Registrar três respostas de quiz sem correção nesta tela."
   },
   {
-    "slide": 14,
+    "slide": 15,
     "start": 28,
     "end": 30,
     "duration": 2,
@@ -201,7 +250,7 @@ c.agenda=[
     "activity": "Corrigir o quiz e fechar a missão. Convidar o público para ver o AIDP real na OCI; as perguntas amplas ficam para o último bloco."
   },
   {
-    "slide": 15,
+    "slide": 16,
     "start": 30,
     "end": 40,
     "duration": 10,
@@ -209,7 +258,7 @@ c.agenda=[
     "activity": "Alternar para a aba já autenticada da OCI/Workbench. Mostrar workspace, catálogo, compute, workflow e agentes já preparados, sem provisionar do zero."
   },
   {
-    "slide": 16,
+    "slide": 17,
     "start": 40,
     "end": 60,
     "duration": 20,
@@ -222,7 +271,7 @@ c.sessionBlocks=[{name:'Júri interativo',start:0,end:30},{name:'Visita à OCI',
 c.agenda.forEach((item,i)=>Object.assign(c.scenes[i],{time:`${item.start}–${item.end} min`,duration:item.duration}));
 c.scenes[0].eyebrow='30 MIN DE JÚRI · 10 MIN DE OCI · 20 MIN DE CONVERSA';
 c.scenes[1].notes='Reserve três minutos para situar os componentes. Use Começar o caminho; os detalhes do Workbench serão mostrados no bloco OCI, após o júri.';
-c.scenes[13].chapter='Missão concluída · vamos à OCI';
-c.scenes[13].intro='Confira as respostas do desafio. Depois vamos conhecer o ambiente real do AIDP na OCI e conversar sobre as escolhas da investigação.';
-c.scenes[13].notes='Corrigir o quiz somente aqui. Fechar o júri até 30 minutos e avançar para a visita de 10 minutos à OCI. Reservar as perguntas amplas para 40–60 minutos.';
+c.scenes.find(scene=>scene.id==='conclusao').chapter='Missão concluída · vamos à OCI';
+c.scenes.find(scene=>scene.id==='conclusao').intro='Confira as respostas do desafio. Depois vamos conhecer o ambiente real do AIDP na OCI e conversar sobre as escolhas da investigação.';
+c.scenes.find(scene=>scene.id==='conclusao').notes='Corrigir o quiz somente aqui. Fechar o júri até 30 minutos e avançar para a visita de 10 minutos à OCI. Reservar as perguntas amplas para 40–60 minutos.';
 })();

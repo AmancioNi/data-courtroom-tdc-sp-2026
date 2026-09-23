@@ -39,21 +39,29 @@
     {
       "slide": 3,
       "start": 4,
-      "end": 6,
+      "end": 5,
+      "duration": 1,
+      "title": "O problema da Aurora",
+      "activity": "Contextualizar a loja, o alerta do Financeiro e a decisão que a empresa precisa tomar. Explorar uma perspectiva da equipe, sem apontar a causa."
+    },
+    {
+      "slide": 4,
+      "start": 5,
+      "end": 7,
       "duration": 2,
       "title": "Incidente e voto",
       "activity": "Ler os indicadores, registrar a primeira escolha e avançar sem antecipar a correção."
     },
     {
-      "slide": 4,
-      "start": 6,
+      "slide": 5,
+      "start": 7,
       "end": 8,
-      "duration": 2,
+      "duration": 1,
       "title": "Fontes",
-      "activity": "Revelar a estratégia da etapa anterior e mostrar as fontes consultadas."
+      "activity": "Revelar a estratégia da votação anterior e reconhecer as fontes. Deixar a leitura detalhada dos documentos para Íris."
     },
     {
-      "slide": 5,
+      "slide": 6,
       "start": 8,
       "end": 11,
       "duration": 3,
@@ -61,7 +69,7 @@
       "activity": "Conferir bronze, silver e gold da última execução concluída. Se reexecutar, fazer uma única chamada e distinguir os horários."
     },
     {
-      "slide": 6,
+      "slide": 7,
       "start": 11,
       "end": 13,
       "duration": 2,
@@ -69,7 +77,7 @@
       "activity": "Comparar metadados da fonte SQL e da gold. Explicar estrutura e acesso sem encenar troca de identidade."
     },
     {
-      "slide": 7,
+      "slide": 8,
       "start": 13,
       "end": 16,
       "duration": 3,
@@ -77,7 +85,7 @@
       "activity": "Mostrar tarefas e histórico real. Abrir um script brevemente; os detalhes do Workbench ficam para a visita após o júri."
     },
     {
-      "slide": 8,
+      "slide": 9,
       "start": 16,
       "end": 19,
       "duration": 3,
@@ -85,7 +93,7 @@
       "activity": "Consultar Byte ao entrar. Comparar cartão e Pix, conferindo números e origem. Não antecipar a causa."
     },
     {
-      "slide": 9,
+      "slide": 10,
       "start": 19,
       "end": 22,
       "duration": 3,
@@ -93,7 +101,7 @@
       "activity": "Consultar Íris ao entrar. Conferir um trecho no documento e preservar a diferença entre evidência e conclusão."
     },
     {
-      "slide": 10,
+      "slide": 11,
       "start": 22,
       "end": 24,
       "duration": 2,
@@ -101,7 +109,7 @@
       "activity": "Executar um teste de escopo e mostrar rastros. Evitar chamadas repetidas para preservar o ritmo."
     },
     {
-      "slide": 11,
+      "slide": 12,
       "start": 24,
       "end": 25,
       "duration": 1,
@@ -109,7 +117,7 @@
       "activity": "Coletar e registrar o voto do júri. O parecer só aparece na próxima etapa."
     },
     {
-      "slide": 12,
+      "slide": 13,
       "start": 25,
       "end": 27,
       "duration": 2,
@@ -117,7 +125,7 @@
       "activity": "Consultar Atlas com as respostas obtidas. Conferir impacto, limites e próxima verificação."
     },
     {
-      "slide": 13,
+      "slide": 14,
       "start": 27,
       "end": 28,
       "duration": 1,
@@ -125,7 +133,7 @@
       "activity": "Registrar três respostas de quiz sem correção nesta tela."
     },
     {
-      "slide": 14,
+      "slide": 15,
       "start": 28,
       "end": 30,
       "duration": 2,
@@ -133,7 +141,7 @@
       "activity": "Corrigir o quiz e fechar a missão. Convidar o público para ver o AIDP real na OCI; as perguntas amplas ficam para o último bloco."
     },
     {
-      "slide": 15,
+      "slide": 16,
       "start": 30,
       "end": 40,
       "duration": 10,
@@ -141,12 +149,14 @@
       "activity": "Alternar para a aba já autenticada da OCI/Workbench. Mostrar workspace, catálogo, compute, workflow e agentes já preparados, sem provisionar do zero."
     },
     {
-      "slide": 16,
+      "slide": 17,
       "start": 40,
       "end": 60,
       "duration": 20,
       "title": "Perguntas e próximos passos",
       "activity": "Abrir dúvidas e curiosidades. Mostrar o material para reprodução posterior e encerrar perto de 60 minutos."
     }
-  ]
+  ],
+  "jurySlides": 15,
+  "totalSlides": 17
 }

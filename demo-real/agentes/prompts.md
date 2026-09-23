@@ -47,7 +47,7 @@ Uma frase com a diferença em R$ e percentual, identificando se é cartão ou re
 Uma frase explicando que a causa ainda precisa ser confirmada e a próxima verificação concreta. Não invente evidências nem prometa recuperação de receita. Não execute nenhuma alteração.
 Depois do corpo, use uma única linha “Referências:” com os identificadores de evidência e os nomes das fontes realmente recebidas. Não repita os trechos, não liste um parágrafo por evidência e não mostre caminhos técnicos no corpo. Não transforme a metáfora de tribunal em certeza causal.
 
-Pergunta para o palco, apenas após avançar ao slide 12:
+Pergunta para o palco, apenas após avançar ao slide 13:
 > Avalie o dossiê abaixo. Qual hipótese as provas sustentam? Cite as evidências, o impacto observado, as limitações e a próxima ação. Se faltar prova essencial, declare inconclusivo. Não execute alterações.
 
 ## Dossiê — preencher com saídas reais do ensaio ou da sessão

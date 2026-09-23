@@ -4,11 +4,13 @@ Um problema de negócio, três investigadores e um júri. Jogo para entender com
 
 **Sessão:** 30 minutos de júri, 10 de visita à OCI/Workbench e 20 de dúvidas. Sem hands-on durante o evento. Este material é para reprodução posterior, no seu ritmo.
 
+Antes dos indicadores e da primeira votação, o slide 3 apresenta a Aurora, o alerta do Financeiro e as perspectivas da equipe.
+
 ## Downloads
 
-- [Kit de estudo: dados, documentos, notebook e Terraform](https://github.com/AmancioNi/data-courtroom-tdc-sp-2026/releases/download/tdc-sp-2026/Data-Courtroom-kit-participante.zip).
-- [Código completo da aplicação e guias](https://github.com/AmancioNi/data-courtroom-tdc-sp-2026/releases/download/tdc-sp-2026/Data-Courtroom-codigo.zip).
-- [Página da versão do TDC SP 2026](https://github.com/AmancioNi/data-courtroom-tdc-sp-2026/releases/tag/tdc-sp-2026).
+- [Kit de estudo: dados, documentos, notebook e Terraform](https://github.com/AmancioNi/data-courtroom-tdc-sp-2026/releases/download/tdc-sp-2026-v2/Data-Courtroom-kit-participante.zip).
+- [Código completo da aplicação e guias](https://github.com/AmancioNi/data-courtroom-tdc-sp-2026/releases/download/tdc-sp-2026-v2/Data-Courtroom-codigo.zip).
+- [Página da versão do TDC SP 2026](https://github.com/AmancioNi/data-courtroom-tdc-sp-2026/releases/tag/tdc-sp-2026-v2).
 
 ## Comece aqui
 
@@ -30,7 +32,7 @@ npm start
 
 Abra http://127.0.0.1:4178. Use Node.js 22 ou posterior. O servidor fica restrito à máquina local; as credenciais não vão para o navegador. GitHub Pages sozinho não executa esta integração, pois ela precisa do servidor autenticado.
 
-O jogo tem 16 telas e três personagens: Byte consulta SQL, Íris recupera documentos e Atlas revisa o dossiê enviado pela aplicação. Votações e quiz são locais, operados pela apresentadora; respostas aparecem somente na etapa seguinte. O navegador não coleta votos individuais da plateia.
+O jogo tem 17 telas e três personagens: Byte consulta SQL, Íris recupera documentos e Atlas revisa o dossiê enviado pela aplicação. Votações e quiz são locais, operados pela apresentadora; respostas aparecem somente na etapa seguinte. O navegador não coleta votos individuais da plateia.
 
 ## Alcance e validação
 

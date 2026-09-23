@@ -1,8 +1,8 @@
 {
   "format": "30 min júri + 10 min OCI + 20 min perguntas, sem hands-on",
-  "screens": 16,
+  "screens": 17,
   "ui_test": "passou; APIs substituídas por fixtures, nenhuma nova operação cloud",
-  "new_screens": "15 e 16 sem chamadas API; votação e resposta separadas",
+  "new_screens": "Tela 3 contextualiza Aurora; visita e perguntas nas telas 16 e 17. Votações revelam respostas nas telas seguintes.",
   "downloads": "dois ZIPs íntegros e servidos por HTTP; conteúdo sem .env, logs ou provider baixado",
   "javascript": "sintaxe validada",
   "notebook": "sintaxe Python validada",
@@ -22,5 +22,6 @@
     },
     "note": "Não equivale à validação em outra conta OCI."
   },
-  "distribution": "Código e kit publicados na versão tdc-sp-2026; logs e configurações privadas não fazem parte dos pacotes."
+  "distribution": "Código e kit publicados na versão tdc-sp-2026-v2; logs e configurações privadas não fazem parte dos pacotes.",
+  "business_context": "Testado com fixtures: contexto, perspectivas, votos, teclado de navegação, mobile e contratos das operações AIDP preservados."
 }
